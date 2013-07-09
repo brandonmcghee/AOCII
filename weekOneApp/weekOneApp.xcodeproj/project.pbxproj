@@ -18,6 +18,10 @@
 		364BEAFA178CC57600EB31CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 364BEAF9178CC57600EB31CA /* Default-568h@2x.png */; };
 		364BEAFD178CC57600EB31CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BEAFC178CC57600EB31CA /* ViewController.m */; };
 		364BEB00178CC57600EB31CA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364BEAFE178CC57600EB31CA /* ViewController.xib */; };
+		364BEB08178CC5D500EB31CA /* drinkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BEB07178CC5D500EB31CA /* drinkFactory.m */; };
+		364BEB0B178CC72B00EB31CA /* vodkaDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BEB0A178CC72B00EB31CA /* vodkaDrink.m */; };
+		364BEB0E178CC7D800EB31CA /* rumDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BEB0D178CC7D800EB31CA /* rumDrink.m */; };
+		364BEB11178CC82000EB31CA /* tequilaDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BEB10178CC82000EB31CA /* tequilaDrink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,14 @@
 		364BEAFB178CC57600EB31CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		364BEAFC178CC57600EB31CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		364BEAFF178CC57600EB31CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		364BEB06178CC5C800EB31CA /* drinkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drinkFactory.h; sourceTree = "<group>"; };
+		364BEB07178CC5D500EB31CA /* drinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drinkFactory.m; sourceTree = "<group>"; };
+		364BEB09178CC71D00EB31CA /* vodkaDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vodkaDrink.h; sourceTree = "<group>"; };
+		364BEB0A178CC72B00EB31CA /* vodkaDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vodkaDrink.m; sourceTree = "<group>"; };
+		364BEB0C178CC7CC00EB31CA /* rumDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rumDrink.h; sourceTree = "<group>"; };
+		364BEB0D178CC7D800EB31CA /* rumDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rumDrink.m; sourceTree = "<group>"; };
+		364BEB0F178CC7E800EB31CA /* tequilaDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tequilaDrink.h; sourceTree = "<group>"; };
+		364BEB10178CC82000EB31CA /* tequilaDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tequilaDrink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,14 @@
 				364BEAF5178CC57600EB31CA /* Default.png */,
 				364BEAF7178CC57600EB31CA /* Default@2x.png */,
 				364BEAF9178CC57600EB31CA /* Default-568h@2x.png */,
+				364BEB06178CC5C800EB31CA /* drinkFactory.h */,
+				364BEB07178CC5D500EB31CA /* drinkFactory.m */,
+				364BEB09178CC71D00EB31CA /* vodkaDrink.h */,
+				364BEB0A178CC72B00EB31CA /* vodkaDrink.m */,
+				364BEB0C178CC7CC00EB31CA /* rumDrink.h */,
+				364BEB0D178CC7D800EB31CA /* rumDrink.m */,
+				364BEB0F178CC7E800EB31CA /* tequilaDrink.h */,
+				364BEB10178CC82000EB31CA /* tequilaDrink.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,6 +196,10 @@
 				364BEAF0178CC57600EB31CA /* main.m in Sources */,
 				364BEAF4178CC57600EB31CA /* AppDelegate.m in Sources */,
 				364BEAFD178CC57600EB31CA /* ViewController.m in Sources */,
+				364BEB08178CC5D500EB31CA /* drinkFactory.m in Sources */,
+				364BEB0B178CC72B00EB31CA /* vodkaDrink.m in Sources */,
+				364BEB0E178CC7D800EB31CA /* rumDrink.m in Sources */,
+				364BEB11178CC82000EB31CA /* tequilaDrink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
